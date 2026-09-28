@@ -1,0 +1,87 @@
+# ローカル設定・秘密情報
+.env
+.env.*
+!.env.example
+!**/.env.example
+.envrc
+.direnv/
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+!**/.dev.vars.example
+.runtimeconfig.json
+firebase-adminsdk-*.json
+service-account*.json
+
+# Node.js / pnpm / Nuxt
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+.nuxt/
+.output/
+.nitro/
+dist/
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python / uv / FastAPI
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.egg-info/
+.eggs/
+build/
+
+# Firebase Local Emulator Suite
+.firebase/
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+emulator-data/
+
+# Cloudflare
+.wrangler/
+
+# テスト・ブラウザ実行結果
+test-results/
+playwright-report/
+blob-report/
+
+# IaC / Terraform のローカル生成物
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# エディター・OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# 一時ファイル・ログ
+tmp/
+temp/
+*.tmp
+*.log
